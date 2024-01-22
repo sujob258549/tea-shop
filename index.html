@@ -14,7 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom color -->
     <script>
         tailwind.config = {
@@ -31,10 +33,9 @@
     </script>
 
     <style>
-        .manrope{
+        .manrope {
             font-family: 'Manrope', sans-serif;
         }
-
     </style>
     <title>Document</title>
 </head>
@@ -51,17 +52,20 @@
                     <div class="flex-1">
                         <h1 class=" text-3xl md:text-5xl lg:text-7xl font-extrabold">It's good
                             tea time at The Tea House</h1>
-                        <p class="py-6 md:pr-28 pr-0">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                        <p class="py-6 md:pr-28 pr-0">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+                            Your Taste
                             Buds.</p>
-                        <button class="btn btn-primary   bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="25" viewBox="0 0 24 25" fill="none">
+                        <button class="btn btn-primary   bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More <svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
                                 <path d="M4.5 19.7788L19.5 4.77881M19.5 4.77881H8.25M19.5 4.77881V16.0288"
                                     stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg></button>
                     </div>
                     <div class="flex-1 relative">
                         <img src="./images/banner.png" alt="" class=" w-full">
-                        <div class="flex gap-3 max-w-[250px] p-5 shadow-lg items-center  rounded-lg z-20 bg-white absolute bottom-3 left-[86px]">
+                        <div
+                            class="flex gap-3 max-w-[250px] p-5 shadow-lg items-center  rounded-lg z-20 bg-white absolute bottom-3 left-[86px]">
                             <i class="fa-solid fa-star text-3xl text-yellow-400 "></i>
                             <div class="text-center">
                                 <h4 class="text-3xl font-extrabold">5.00</h4>
@@ -73,6 +77,87 @@
             </div>
 
         </div>
+        <!-- products-section -->
+        <section class="products-section">
+            <div class="m-auto w-full md:w-[650px] px-5">
+                <h2 class=" text-3xl text-center md:text-5xl font-extrabold  mb-5">
+                    Our Featured Products
+                </h2>
+                <p class="text-base text-center">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 md:mt-10 mt-5">
+                <div class="card  shadow-2xl bg-gradient-to-b from-gray-200 to-transparent p-4 ">
+                    <figure><img src="./images/tea-1.png" alt="Shoes" class="pt-10" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class=" text-center font-extrabold text-2xl ">Milk Tea!</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+                        </div>
+                    </div>
+                </div>
+                <div class="card  shadow-2xl bg-gradient-to-b from-gray-200 to-transparent p-4">
+                    <figure><img src="./images/tea-2.png" alt="Shoes" class="pt-10" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class=" text-center font-extrabold text-2xl ">Green Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+                        </div>
+                    </div>
+                </div>
+                <div class="card  shadow-2xl bg-gradient-to-b from-gray-200 to-transparent p-4">
+                    <figure><img src="./images/tea-3.png" alt="Shoes" class="pt-10" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class=" text-center font-extrabold text-2xl ">Lemon Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+                        </div>
+                    </div>
+                </div>
+                <div class="card  shadow-2xl bg-gradient-to-b from-gray-200 to-transparent p-4">
+                    <figure><img src="./images/tea-4.png" alt="Shoes" class="pt-10" /></figure>
+                    <div class="card-body text-center">
+                        <h2 class=" text-center font-extrabold text-2xl ">Black Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- presented-section -->
+        <section class="presented-section py-10 md:py-24">
+            <div class=" flex flex-col-reverse md:flex-row gap-10 items-center">
+                <div class="grid grid-cols-2 grid-rows-3 gap-7 flex-1 w-[100%]">
+                    <div class="bg-gradient-to-r from-[#c1b2a76a] to-red-200 rounded-2xl"></div>
+                    <div class="row-span-2 flex justify-center py-10 px-5 bg-gradient-to-b from-[#ff88386d] to-red-200 rounded-2xl"> <img src="./images/fresh-1.png" alt=""></div>
+                    <div class="row-span-2 flex justify-center py-10 px-5 bg-gradient-to-t from-[#0000005a] to-red-200 rounded-2xl"> <img src="./images/fresh-2.png" alt=""></div>
+                    <div class=" bg-gradient-to-l from-[#185a307c] to-red-200 rounded-2xl"></div>
+                </div>
+                <div class="space-y-5 flex-1">
+                    <h2 class=" text-3xl md:text-5xl font-extrabold  mb-5">
+                        Our Featured Products
+                    </h2>
+                    <p class="text-base">The meaning of gong cha is chanese is to provide the best tea to emperor from
+                        all possessions . It represents the highest quality and self expectation. Establishing in 2006,
+                        Gong cha had been deeply appreciated by its custoers because of good words of mouth and unique
+                        customized service orginated from Taiwan. </p>
+                    <h3 class="text-2xl font-bold ">
+                        Unique Taste
+                    </h3>
+                    <p class="text-base">A Unique and different style from other teapots gives a luxurious and
+                        minimalist impression</p>
+                    <h3 class="text-2xl font-bold ">
+                        Premium Quality
+                    </h3>
+                    <p class="text-base">Premium Quality that makes tea more elegant and more durable when you use it.
+                    </p>
+
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer class="container max-w-[1280px] mx-auto box-border px-5">
